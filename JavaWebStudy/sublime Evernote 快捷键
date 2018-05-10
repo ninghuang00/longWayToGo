@@ -1,0 +1,12 @@
+Developer Token 
+S=s65:U=10754e3:E=165d76a10de:C=15e7fb8e3e8:P=1cd:A=en-devtoken:V=2:H=723743689a4e85e72255c4a4168034b1
+NoteStore URL: 
+https://app.yinxiang.com/shard/s65/notestore
+
+
+[
+    { "keys": ["ctrl+e", "ctrl+o"], "command": "open_evernote_note" },
+    { "keys": ["ctrl+s"], "command": "save_evernote_note", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}] },
+    { "keys": ["ctrl+s"], "command": "send_to_evernote", "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid", "operator": "equal", "operand": false}] }
+]
+
