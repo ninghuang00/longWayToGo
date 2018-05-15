@@ -122,6 +122,10 @@ springMVC入门及源码分析:http://blog.csdn.net/column/details/13023.html
 	2. 方法二:在url映射注解中添加一段
 	`@RequestMapping(value="/getUsersByPage",produces = "application/json; charset=utf-8")`
 * SpringMVC HTTP请求响应的过程
+![avatar](pic/springMVC基本工作流程图.jpeg)
+springMVC基本工作流程图
+![avatar](pic/SpringMVC中HTTP请求处理流程时序图.jpeg)
+SpringMVC中HTTP请求处理流程时序图
 >1.用户发起请求到前端控制器。
 2.前端控制器通过处理器映射器查找handler。
 3.处理器映射器返回执行链。

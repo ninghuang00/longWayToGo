@@ -1,0 +1,24 @@
+target
+/target
+/.settings
+/.classpath
+/.project
+/out/
+/classes/
+.idea/
+/education.iml
+/src/main/resources/db.properties
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
