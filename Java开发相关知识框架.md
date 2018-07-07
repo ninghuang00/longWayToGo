@@ -1,7 +1,6 @@
 ## Java开发相关知识框架
 -------
 ### 大目录
-<a href="#tool">zouni</a>
 1. [基础知识](#baseKnowledge)
 2. 开源框架
 3. 数据库
@@ -10,7 +9,7 @@
 
 <div id="baseKnowledge"></div>
 
-### 基础知识
+### [基础知识](/impl/java基础知识复习笔记.md)
 1. java基础 +++
 	* 面向对象
 	* 集合
