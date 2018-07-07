@@ -81,6 +81,7 @@
 	`vi /etc/sysconfig/iptables`配置端口
 	`service iptables restart`重启防火墙
 	`systemctl restart iptables.service`重启防火墙
+	`/etc/init.d/iptables restart`重启防火墙
 	`systemctl enable iptables.service`设置防火墙卡机启动
 
 
